@@ -12,7 +12,7 @@ public class Physics : MonoBehaviour
 
     public float mass;
 
-    private float length;
+    public float length;
 
 
     public float momentOfInertia; //vector
@@ -27,15 +27,6 @@ public class Physics : MonoBehaviour
         angularVelocity = 1.0f;
         angularAcceleration = 1.0f;
         momentOfInertia = 1.0f;*/
-
-        if (name == "Weight1" || name == "Weight3")
-        {
-            length = 2.0f;
-        }
-        else if (name == "Weight2" || name == "Weight4")
-        {
-            length = 4.0f;
-        }
     }
 
     void getMomentOfInertia()

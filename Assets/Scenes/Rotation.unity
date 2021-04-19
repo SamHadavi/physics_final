@@ -129,7 +129,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-23224
+  m_Name: pb_Mesh14772
   serializedVersion: 10
   m_SubMeshes:
   - serializedVersion: 2
@@ -944,6 +944,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   angularMomentum: 5
   mass: 2
+  length: 2
   momentOfInertia: 0
   angularVelocity: 0
 --- !u!33 &737803445
@@ -1071,7 +1072,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1218361221
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1356,6 +1357,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   angularMomentum: 5
   mass: 2
+  length: 4
   momentOfInertia: 0
   angularVelocity: 0
 --- !u!33 &1218361225
@@ -1400,7 +1402,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!64 &1241340315
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -1685,6 +1687,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   angularMomentum: 5
   mass: 2
+  length: 2
   momentOfInertia: 0
   angularVelocity: 0
 --- !u!33 &1241340319
@@ -2438,6 +2441,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   angularMomentum: 5
   mass: 2
+  length: 4
   momentOfInertia: 0
   angularVelocity: 0
 --- !u!33 &2125283630
