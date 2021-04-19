@@ -31,6 +31,14 @@ public class Physics : MonoBehaviour
 
     void getMomentOfInertia()
     {
+        if (mass <= 0.0f)
+        {
+            mass = 1.0f;
+        }
+        else if (length <= 0.0f)
+        {
+            length = 1.0f;
+        }
         momentOfInertia = coeff * mass * Mathf.Pow(length, 2);
     }
 
@@ -53,7 +61,4 @@ public class Physics : MonoBehaviour
         float angVelConverted = angularVelocity * (180/pi); 
         transform.Rotate(Vector3.down * Time.deltaTime * angVelConverted);
     }
-
-
-
 }

@@ -1686,7 +1686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   angularMomentum: 5
-  mass: 2
+  mass: 4
   length: 2
   momentOfInertia: 0
   angularVelocity: 0
